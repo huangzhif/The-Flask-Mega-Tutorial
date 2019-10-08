@@ -5,5 +5,7 @@
 
 ## 2、签出后，执行pip install -r requirements.txt 命令安装依赖包
 
+### 运行 flask db upgrade 命令
+
 ## 3、执行命令：flask run --host=0.0.0.0
 
