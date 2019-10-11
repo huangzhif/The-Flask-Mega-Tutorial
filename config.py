@@ -8,4 +8,6 @@ class Config(object):
     SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL') or 'sqlite:///' + os.path.join(basedir,'app.db')
     # 设置数据发生变更后是否发送信号给应用
     SQLALCHEMY_TRACK_MODIFICATIONS = False
+    
+    POSTS_PER_PAGE = 1
 
