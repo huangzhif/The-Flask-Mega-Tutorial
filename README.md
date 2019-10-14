@@ -7,5 +7,7 @@
 
 ### 运行 flask db upgrade 命令
 
+#### 邮件配置在文件：instance/config.py
+
 ## 3、执行命令：flask run --host=0.0.0.0
 
