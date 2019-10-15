@@ -59,3 +59,11 @@ Welcome to Microblog
 </div>
 {% endblock %}
 
+{% block scripts %}
+{{ super() }}
+{{ moment.include_moment() }}
+{% endblock %}
+
+
+
+
